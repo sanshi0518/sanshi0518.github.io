@@ -9,7 +9,7 @@
   <meta name="author" content="wanglei">
 
   
-  <meta name="description" content="搭建基于github的博客 更多主题 新建博客 rake new_post[your-blog-name]，生成source/_posts/YYYY-MM-DD-your-blog-name.markdown文件。
+  <meta name="description" content="搭建基于github的博客 更多主题 简易操作手册 rake new_post[your-blog-name]，生成source/_posts/YYYY-MM-DD-your-blog-name.markdown文件。
 编辑生成的markdown文件。
 rake generate， &hellip;">
   
@@ -91,15 +91,26 @@ rake generate， &hellip;">
 
 <p><a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">更多主题</a></p>
 
-<h3>新建博客</h3>
+<h3>简易操作手册</h3>
 
 <ul>
-<li>rake new_post[your-blog-name]，生成source/_posts/YYYY-MM-DD-your-blog-name.markdown文件。</li>
-<li>编辑生成的markdown文件。</li>
-<li>rake generate，将markdown转换为html，存储路径为public/blog/YYYY/MM/DD/your-blog-name/index.html。</li>
-<li>rake preview，访问本地4000端口进行预览，实时刷新最新内容。</li>
-<li>git add . &amp; git commit -m &lsquo;your message&rsquo; &amp; git push origin source。</li>
-<li>rake deploy，发布博客。</li>
+<li><p>rake new_post[your-blog-name]，生成source/_posts/YYYY-MM-DD-your-blog-name.markdown文件。</p></li>
+<li><p>编辑生成的markdown文件。</p></li>
+<li><p>rake generate，将markdown转换为html，存储路径为public/blog/YYYY/MM/DD/your-blog-name/index.html。</p></li>
+<li><p>rake deploy，发布博客。</p>
+
+<ul>
+<li>将html推送至远程master分支。</li>
+<li>先generate，再deploy。</li>
+<li>deploy前的所有操作都是在source分支进行。</li>
+</ul>
+</li>
+<li><p>同步source分支</p>
+
+<ul>
+<li>git add -A &amp; git commit -m &lsquo;commit to souce branch&rsquo; &amp; git push origin source。</li>
+</ul>
+</li>
 </ul>
 
 </div>
