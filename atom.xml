@@ -4,10 +4,10 @@
   <title><![CDATA[Dreams as Horses]]></title>
   <link href="http://sanshi0518.github.io/atom.xml" rel="self"/>
   <link href="http://sanshi0518.github.io/"/>
-  <updated>2014-09-05T00:37:57+08:00</updated>
+  <updated>2014-09-05T01:24:41+08:00</updated>
   <id>http://sanshi0518.github.io/</id>
   <author>
-    <name><![CDATA[wangLei]]></name>
+    <name><![CDATA[wanglei]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -18,7 +18,9 @@
     <link href="http://sanshi0518.github.io/blog/2014/09/05/setup-blog-based-on-github/"/>
     <updated>2014-09-05T00:37:17+08:00</updated>
     <id>http://sanshi0518.github.io/blog/2014/09/05/setup-blog-based-on-github</id>
-    <content type="html"><![CDATA[<p>猛戳<a href="http://blog.devtang.com/blog/2012/02/10/setup-blog-based-on-github">这里</a></p>
+    <content type="html"><![CDATA[<p><a href="http://blog.devtang.com/blog/2012/02/10/setup-blog-based-on-github">搭建基于github的博客</a></p>
+
+<p><a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">更多主题</a></p>
 ]]></content>
   </entry>
   
