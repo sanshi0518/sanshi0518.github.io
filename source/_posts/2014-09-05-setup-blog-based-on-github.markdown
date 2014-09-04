@@ -21,14 +21,13 @@ comments: true
 * rake generate，将markdown转换为html，存储路径为public/blog/YYYY/MM/DD/your-blog-name/index.html。
 	
 * rake deploy，发布博客。
-
-	* 将html推送至远程master分支。
-	* 先generate，再deploy。
-	* deploy前的所有操作都是在source分支进行。
+		* 将html推送至远程master分支。
+		* 先generate，再deploy。
+		* deploy前的所有操作都是在source分支进行。
 
 * 同步source分支
 
-	* git add -A & git commit -m 'commit to souce branch' & git push origin source。
+		git add -A & git commit -m 'commit to souce branch' & git push origin source。
 
 
 
