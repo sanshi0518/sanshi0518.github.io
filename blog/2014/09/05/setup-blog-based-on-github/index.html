@@ -96,18 +96,14 @@ rake generate， &hellip;">
 <li><p>rake generate，将markdown转换为html，存储路径为public/blog/YYYY/MM/DD/your-blog-name/index.html。</p></li>
 <li><p>rake deploy，发布博客。</p>
 
-<ul>
-<li>将html推送至远程master分支。</li>
-<li>先generate，再deploy。</li>
-<li>deploy前的所有操作都是在source分支进行。</li>
-</ul>
-</li>
+<pre><code>  * 将html推送至远程master分支。
+  * 先generate，再deploy。
+  * deploy前的所有操作都是在source分支进行。
+</code></pre></li>
 <li><p>同步source分支</p>
 
-<ul>
-<li>git add -A &amp; git commit -m &lsquo;commit to souce branch&rsquo; &amp; git push origin source。</li>
-</ul>
-</li>
+<pre><code>  git add -A &amp; git commit -m 'commit to souce branch' &amp; git push origin source。
+</code></pre></li>
 </ul>
 
 </div>
