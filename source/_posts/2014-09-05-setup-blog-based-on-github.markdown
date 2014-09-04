@@ -12,13 +12,24 @@ comments: true
 
 [更多主题](https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes)
 
-### 新建博客
+### 简易操作手册
 
-- rake new_post[your-blog-name]，生成source/_posts/YYYY-MM-DD-your-blog-name.markdown文件。
-- 编辑生成的markdown文件。
-- rake generate，将markdown转换为html，存储路径为public/blog/YYYY/MM/DD/your-blog-name/index.html。
-- rake preview，访问本地4000端口进行预览，实时刷新最新内容。
-- rake deploy，发布博客。
+* rake new_post[your-blog-name]，生成source/_posts/YYYY-MM-DD-your-blog-name.markdown文件。
+	
+* 编辑生成的markdown文件。
+	
+* rake generate，将markdown转换为html，存储路径为public/blog/YYYY/MM/DD/your-blog-name/index.html。
+	
+* rake deploy，发布博客。
+
+	* 将html推送至远程master分支。
+	* 先generate，再deploy。
+	* deploy前的所有操作都是在source分支进行。
+
+* 同步source分支
+
+	* git add -A & git commit -m 'commit to souce branch' & git push origin source。
+
 
 
 
